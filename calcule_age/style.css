@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+
+    background-color: #40A2E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgba(101, 211, 211, 0.693);
+    border-radius: 10px;
+
+}
+.container h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+.container .header .saisir label{
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(82, 88, 88);
+
+}
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .header .saisir input{
+    padding: 4px ;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    border:none
+}
+
+
+.container .header .outpout p{
+    color: darkslategray;
+    font-size: 22px;
+    font-weight: 300;
+
+
+}
+.container .header .outpout{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+main{
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 20px 0px;
+    align-items: center;
+    transition: max-height 2s, opacity 3s, margin 250ms ease;
+
+
+
+}
+main .box{
+    width: calc(800px/3);
+    height: 160px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+}
+
+#button{
+    padding: 3px 10px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+main .box .he{
+    height: 30%;
+    background-color: rgb(80, 218, 80);
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 300;
+}
+main .box .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+main .box .body p{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 970px){
+    .container{
+        width: 700px;
+        padding: 15px;
+        margin-top: 150px;
+    }
+    .container .header .saisir label{
+        font-size: 20px;
+
+    }
+    .container .header .saisir input{
+
+        margin-left: 10px;
+
+        font-size: 18px;
+
+    }
+    .container .header .outpout p{
+        font-size: 20px;
+
+    
+    
+    }
+}
+@media screen and (max-width: 700px){
+
+    .container{
+        width: 600px;
+        padding: 20px;
+        background-color: rgba(101, 211, 211, 0.693);
+        border-radius: 10px;
+        margin-top: 100px;
+    } 
+    main .box{
+        width: 250px;
+        height: 140px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+    } 
+}
+
+@media screen and (max-width: 550px){
+
+    .container{
+        width: 400px;
+        padding: 20px;
+        background-color: rgba(101, 211, 211, 0.693);
+        border-radius: 10px;
+        margin-top: 100px;
+    } 
+    main{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    main .box{
+        width: 250px;
+        height: 150px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        
+    } 
+    .container .header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+   
+    }
+    .container .header .saisir label{
+        padding-left: 5px;
+
+    }
+    .container .header .saisir input{
+        padding: 4px ;
+        margin: 5px 0px;
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+        font-size: 20px;
+        
+        border:none
+    }
+    .container .header .outpout{
+        width: 100%;
+        display: flex;
+
+    }
+    
+    
+    .container .header .outpout p{
+        color: darkslategray;
+        font-size: 22px;
+        font-weight: 300;
+    
+    
+    }
+}
+@media screen and (max-width: 550px){
+    .container{
+        margin-top: 10px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,#8b51ff,#7a37ff);
+}
+.form{
+    width: 450px;
+    background-color: #ffffff;
+    padding: 30px 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.form .pass{
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    font-size: 20px;
+    margin:20px auto;
+}
+.form .pass label{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form .pass input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px ;
+    border:1px solid rgb(52, 51, 51);
+    color: black;
+    outline: none;
+    font-size: 22px;
+    margin: auto;
+    transition: 0.4s;
+
+}
+.form .pass input:focus{
+    border: 1px solid #7a37ff;
+    box-shadow: 0 0 1rem rgb(196, 95, 236);
+}
+input[type="submit"]{
+    background-color: #7f3fff;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    background-color: #5226ab;
+}
+#message{
+    color: red;
+    padding-bottom: 10px;
+    display: none;
+}

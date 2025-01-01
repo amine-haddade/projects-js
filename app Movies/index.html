@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="bagroud-image" src="img/banner.png" alt="" class="bg__image">
+    <div class="bg__blur"></div>
+    <header>
+        <h1>amine</h1>
+        <hr>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="#"><i class="fa-solid fa-photo-film"></i>movies</a></li>
+            <li><a href="#"><i class="fa-solid fa-film"></i>series</a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i>favorites</a></li>
+        </ul>
+        <hr>
+        <p>account</p>
+        <h3><i class='bx bx-user-circle'></i>account</h3>
+        <hr>
+        <div class="loug_out"><i class="fa-regular fa-circle-left"></i>log out</div>
+
+    </header>
+    <div class="header">
+        <h1>amine</h1>
+        <hr>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="#"><i class="fa-solid fa-photo-film"></i>movies</a></li>
+            <li><a href="#"><i class="fa-solid fa-film"></i>series</a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i>favorites</a></li>
+        </ul>
+        <hr>
+        <p>account</p>
+        <h3><i class='bx bx-user-circle'></i>account</h3>
+        <hr>
+        <i class="fa-solid fa-xmark" id="hide-menu"></i>
+        <div class="loug_out"><i class="fa-regular fa-circle-left"></i>log out</div>
+
+    </div>
+    <div class="content">
+        <nav>
+            <div class="serch-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="serch movies" id="nameMovie">
+            </div>
+            <div class="profil-user">
+                <h1>amine</h1>
+                <div class="icones">
+                    <i class='bx bx-bell' ></i>
+                    <i class='bx bx-user-circle'></i>
+                    <i class="fa-solid fa-bars" id="show-menu"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="img-hero-section">
+            <div class="banner__shadow"></div>
+            <img src="img/banner.png" alt="">
+            <div class="banner-data">
+                <h1 class="banner-title">avengers</h1>
+                <p class="banner-categorie">action</p>
+            </div>
+        </div>
+        <div class="movies swiper">
+            <h1 class="title">movies</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-2.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark night</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-3.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">inception</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-4.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark kinght</h5>
+                        <p class="categorie-movie">science ficition</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-5.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">avenger age of ultron</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-6.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">avengers</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-4.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">interstellar</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-1.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark night</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+
+        <div class="new_movies swiper">
+            <h1 class="title">news</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-1.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark night</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-2.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">inception</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-3.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark kinght</h5>
+                        <p class="categorie-movie">science ficition</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-4.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">avenger age of ultron</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-5.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">avengers</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/new-6.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">interstellar</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                <div class="swiper-slide card-movie">
+                    <img src="img/movie-1.png" alt="">
+                    <i class="fa-regular fa-heart favorite-movie"></i>
+                    <div class="banner__shadow_movie"></div>
+                    <div class="data-movie">
+                        <h5 class="title-movie">the dark night</h5>
+                        <p class="categorie-movie">action</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        slidesPerView: 5,
+        spaceBetween: 25,
+
+        breakpoints: {
+                1300: {
+                    slidesPerView: 5,
+                    spaceBetween: 25,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                600: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                400: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                250: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                }
+            }
+        })
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

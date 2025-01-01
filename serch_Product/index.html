@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="serch-box">
+        <input id="chercher-input" type="text" placeholder="rechrcher le nom de produit ici">
+        <button id="cherche-button">rechercher</button>
+    </div>
+    <div class="catégorie-button">
+        <button class="" onclick="filtrerProduit('all')">all</button>
+        <button onclick="filtrerProduit('Topwear')">Topwear</button>
+        <button onclick="filtrerProduit('Bottomwear')">Bottomwear</button>
+        <button onclick="filtrerProduit('Jacket')">Jacket</button>
+        <button  onclick="filtrerProduit('Watch')">Watch</button>
+    </div>
+    <div id="produits"></div>
+    <script src="test2Script.js"></script>
+</body>
+</html>

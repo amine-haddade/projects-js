@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="oo">
+        <div class="prodduit">
+            <button id="tst" onclick="test()">add to cart</button>
+        </div>
+    </div>
+    <script>
+        const button=document.getElementById("tst")
+        function test(){
+            const parendiv=button.closest("body")
+            console.log(parendiv);
+
+
+            if(parendiv){
+                console.log("found")
+            }
+            if(!parendiv){
+                console.log("not found")
+            }
+        }
+
+        // demo 
+        // la fonction permet cherhcer le selctour donner si contien dans l'arbre dom 
+        // paren ou grand-paren dans l'élement button dans ce cas 
+        // si true afficher l'arbre si false afficher null
+    </script>
+</body>
+</html>

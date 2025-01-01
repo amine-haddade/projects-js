@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="color-scheme" content="light">
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><i class="fa-solid fa-bag-shopping"  style="color: red; font-size: 25px;cursor: pointer;"><span id="shopping">0</span></i></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">The Generics</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items" id="produits">
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 1</span>
+                    <img class="shop-item-image" src="téléchargement (2).jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                    <img class="shop-item-image" src="téléchargement (3).jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                    <img class="shop-item-image" src="téléchargement (6).jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image" src="téléchargement (7).jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+           
+
+        
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="téléchargement (8).jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Coffee Cup</span>
+                    <img class="shop-item-image" src="ParA O TELEMÓVEL.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items " id="cart-items">
+                
+                
+
+                <!-- lélément crée   -->
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price" id="total">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" id="chkede" type="button" >PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Generics</h3>
+                
+            </div>
+        </footer>
+
+        
+        <script src="script.js" ></script>
+    </body>
+</html>
